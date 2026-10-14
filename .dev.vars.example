@@ -1,0 +1,7 @@
+# WebDAV credentials for your Zotero client. Pick any username and a strong
+# password — these are what you'll enter in Zotero's Sync settings.
+# For deployed Workers, set these as secrets:
+#   npx wrangler secret put WEBDAV_USERNAME
+#   npx wrangler secret put WEBDAV_PASSWORD
+WEBDAV_USERNAME=zotero
+WEBDAV_PASSWORD=change-me

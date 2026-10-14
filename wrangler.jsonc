@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zotero-webdav",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-01",
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "zotero-attachments","preview_bucket_name": "zotero-attachments"
+    }
+  ]
+  // Secrets (set via `npx wrangler secret put <NAME>`):
+  //   WEBDAV_USERNAME
+  //   WEBDAV_PASSWORD
+}
